@@ -47,7 +47,10 @@ public class ListOfGames {
       gamesList.size();
       System.out.println(gamesList.size());
      
-      
+      List<WebElement> gamesList1 = driver.findElements(By.xpath(objectRepository.getValue("listOfGames")));
+      gamesList.size();
+      System.out.println(gamesList.size());
+     
       
   }
   
